@@ -28,7 +28,7 @@ zastêpuj±c przy tym nazwy zmiennych warto¶ciami.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
