@@ -3,7 +3,7 @@ Summary:	CGI-FastTemplate perl module
 Summary(pl):	Modu³ perla CGI-FastTemplate
 Name:		perl-CGI-FastTemplate
 Version:	1.09
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
