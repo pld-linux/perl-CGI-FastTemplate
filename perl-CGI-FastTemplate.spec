@@ -1,11 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	FastTemplate
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI-FastTemplate perl module
 Summary(pl):	Modu³ perla CGI-FastTemplate
 Name:		perl-CGI-FastTemplate
 Version:	1.09
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +22,7 @@ variable names with values.
 Modu³ perla CGI-FastTemplate.
 
 %prep
-%setup -q -n CGI-FastTemplate-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
