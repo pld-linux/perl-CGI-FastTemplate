@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	CGI
-%define	pnam	FastTemplate
+%define		pdir	CGI
+%define		pnam	FastTemplate
 Summary:	CGI::FastTemplate - Perl extension for managing templates, and performing variable interpolation
 Summary(pl):	CGI::FastTemplate - rozszerzenie Perla do zarz±dzania wzorcami i zastêpowania zmiennych
 Name:		perl-CGI-FastTemplate
