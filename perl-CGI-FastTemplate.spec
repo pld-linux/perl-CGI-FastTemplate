@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	CGI
 %define	pnam	FastTemplate
-Summary:	CGI-FastTemplate perl module
-Summary(pl):	Modu³ perla CGI-FastTemplate
+Summary:	CGI::FastTemplate perl module
+Summary(pl):	Modu³ perla CGI::FastTemplate
 Name:		perl-CGI-FastTemplate
 Version:	1.09
 Release:	6
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-FastTemplate manages templates and parses templates replacing
+CGI::FastTemplate manages templates and parses templates replacing
 variable names with values.
 
 %description -l pl
-Modu³ perla CGI-FastTemplate.
+Modu³ perla CGI::FastTemplate.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
