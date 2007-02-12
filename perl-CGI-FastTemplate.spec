@@ -6,7 +6,7 @@
 %define		pdir	CGI
 %define		pnam	FastTemplate
 Summary:	CGI::FastTemplate - Perl extension for managing templates, and performing variable interpolation
-Summary(pl):	CGI::FastTemplate - rozszerzenie Perla do zarz±dzania wzorcami i zastêpowania zmiennych
+Summary(pl.UTF-8):   CGI::FastTemplate - rozszerzenie Perla do zarzÄ…dzania wzorcami i zastÄ™powania zmiennych
 Name:		perl-CGI-FastTemplate
 Version:	1.09
 Release:	9
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 CGI::FastTemplate Perl module manages templates and parses templates
 replacing variable names with values.
 
-%description -l pl
-Modu³ Perla CGI::FastTemplate zarz±dza wzorcami i analizuje je,
-zastêpuj±c przy tym nazwy zmiennych warto¶ciami.
+%description -l pl.UTF-8
+ModuÅ‚ Perla CGI::FastTemplate zarzÄ…dza wzorcami i analizuje je,
+zastÄ™pujÄ…c przy tym nazwy zmiennych wartoÅ›ciami.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
