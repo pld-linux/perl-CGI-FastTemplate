@@ -9,7 +9,7 @@ Summary:	CGI::FastTemplate - Perl extension for managing templates, and performi
 Summary(pl.UTF-8):	CGI::FastTemplate - rozszerzenie Perla do zarządzania wzorcami i zastępowania zmiennych
 Name:		perl-CGI-FastTemplate
 Version:	1.09
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
