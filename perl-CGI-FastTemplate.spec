@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	CGI
 %define		pnam	FastTemplate
+%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::FastTemplate - Perl extension for managing templates, and performing variable interpolation
 Summary(pl.UTF-8):	CGI::FastTemplate - rozszerzenie Perla do zarządzania wzorcami i zastępowania zmiennych
 Name:		perl-CGI-FastTemplate
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c5fe8ead04c525c8d5633c9453af802f
+URL:		http://search.cpan.org/dist/CGI-FastTemplate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
