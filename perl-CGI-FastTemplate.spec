@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	FastTemplate
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::FastTemplate - Perl extension for managing templates, and performing variable interpolation
 Summary(pl.UTF-8):	CGI::FastTemplate - rozszerzenie Perla do zarządzania wzorcami i zastępowania zmiennych
 Name:		perl-CGI-FastTemplate
